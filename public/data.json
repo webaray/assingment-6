@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance in minutes.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/JRmZkpR5/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Kit",
+    "description": "Design stunning social media posts and stories easily.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["500+ templates", "Drag & drop editor", "HD export"],
+    "icon": "https://i.ibb.co.com/21KqSs54/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Copywriting Tool",
+    "description": "Generate high-converting content for ads, blogs, and emails.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Blog generator", "Ad copy templates", "SEO optimization"],
+    "icon": "https://i.ibb.co.com/MkWq1Pm8/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Website UI Kit",
+    "description": "Pre-built UI components for faster website design.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["200+ components", "Figma & HTML support", "Responsive design"],
+    "icon": "https://i.ibb.co.com/1t0HMTKG/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Email Marketing Pro",
+    "description": "Automate and manage email campaigns with ease.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Automation workflows", "Email templates", "Analytics dashboard"],
+    "icon": "https://i.ibb.co.com/G46KWysb/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Stock Image Library",
+    "description": "Access thousands of high-quality stock images.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["10,000+ images", "Commercial license", "Unlimited downloads"],
+    "icon": "https://i.ibb.co.com/DgCWdvpd/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Suite",
+    "description": "Edit videos like a pro with advanced tools.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Timeline editor", "Effects & transitions", "4K export"],
+    "icon": "https://i.ibb.co.com/MkWq1Pm8/portfolio.png"
+  },
+  {
+    "id": 8,
+    "name": "Landing Page Builder",
+    "description": "Build high-converting landing pages without coding.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Drag & drop builder", "Conversion templates", "A/B testing"],
+    "icon": "https://i.ibb.co.com/1t0HMTKG/shopping-cart.png"
+  },
+   {
+    "id": 8,
+    "name": "Shopify Page Builder",
+    "description": "Build high-converting landing pages without coding.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Drag & drop builder", "Conversion templates", "A/B testing"],
+    "icon": "https://i.ibb.co.com/G46KWysb/social-media.png"
+  }
+]
