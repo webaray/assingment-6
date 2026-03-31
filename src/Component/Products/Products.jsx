@@ -23,13 +23,13 @@ const Products = ({ productPromise, setActiveTab, carts, setCarts }) => {
 
                     <input type="radio"
                         name="my_tabs_1" className="tab rounded-full w-40 text-xl font-semibold checked:bg-linear-to-l from-[#9514FA] to-[#4f39f6] checked:text-white"
-                        aria-label="Cart"
+                        aria-label={`Cart (${carts.length})` }
                         onClick={()=> setActiveTab("cart")}
                     />
                 </div>
             </div>
 
-            <div className='container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 rounded-2xl'>
+            <div className='container my-20 mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 rounded-2xl'>
 
                 {
                     products.map((product) => 

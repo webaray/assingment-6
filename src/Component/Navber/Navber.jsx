@@ -1,10 +1,10 @@
 import React from 'react';
 import { BsCart } from 'react-icons/bs';
 
-const Navber = () => {
+const Navber = ({carts}) => {
     return (
         <div className=''>
-            <div className="navbar lg:px-56 bg-base-100 shadow">
+            <div className="navbar fixed top-0 lg:px-56 bg-base-100 shadow">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +34,15 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <BsCart/>
+                    <div className='relative'>
+                        <BsCart className='text-xl' />
+
+                        <span className="absolute -top-4 -right-3 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
+                         {carts.length}
+                        </span>
+
+
+                    </div>
                     <a className="btn btn-ghost">Login</a>
                     <button className='btn text-white bg-linear-to-l from-[#9514FA] to-[#4f39f6] mr-3 rounded-full py-5'>Get Started</button>
                 </div>
