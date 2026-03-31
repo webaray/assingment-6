@@ -7,7 +7,7 @@ const Products = ({ productPromise, setActiveTab, carts, setCarts }) => {
     return (
         <div>
             <div className='space-y-4 mt-32'>
-                <h2 className='text-5xl font-extrabold text-center'>Premium Digital Tools</h2>
+                <h2 className='lg:text-5xl text-3xl font-extrabold text-center'>Premium Digital Tools</h2>
                 <p className='text-center'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
             </div>
 
@@ -29,7 +29,7 @@ const Products = ({ productPromise, setActiveTab, carts, setCarts }) => {
                 </div>
             </div>
 
-            <div className='container my-20 mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 rounded-2xl'>
+            <div className='container my-20 px-3 mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 rounded-2xl'>
 
                 {
                     products.map((product) => 

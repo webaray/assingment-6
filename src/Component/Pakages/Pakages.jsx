@@ -6,9 +6,9 @@ const Pakages = () => {
         <div className='py-30'>
 
             <div className='container mx-auto'>
-                <h2 className='text-5xl font-extrabold text-center'>Simple, Transparent Pricing</h2>
+                <h2 className='lg:text-5xl text-3xl font-extrabold text-center'>Simple, Transparent Pricing</h2>
                 <p className='text-center mt-4 mb-10'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8 items-stretch'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-3 items-stretch'>
                     <div className="card  bg-base-100 shadow-sm">
                         <div className="card-body bg-[#F9FAFC] rounded-2xl">
                     

@@ -8,10 +8,10 @@ const Steps = () => {
         <div className='bg-[#F9FAFC] py-32'>
 
             <div className='container mx-auto'>
-            <h2 className='text-5xl font-extrabold text-center'>Get Started in 3 Steps</h2>
+            <h2 className='lg:text-5xl text-3xl font-extrabold text-center'>Get Started in 3 Steps</h2>
             <p className='text-center mt-4 mb-10'>Start using premium digital tools in minutes, not hours.</p>
             <div>
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-8'>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 px-3 gap-8'>
                     <div className="card bg-base-100 shadow-sm">
                     
                         <div className="card-body items-center text-center py-20 relative">

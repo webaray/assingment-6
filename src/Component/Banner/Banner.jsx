@@ -6,7 +6,7 @@ import { IoPlayOutline } from 'react-icons/io5';
 const Banner = () => {
     return (
         <div className=' lg:flex md:flex mx-auto gap-8 container justify-between my-24 px-3'>
-            <div className='flex flex-col justify-center'>
+            <div className='flex flex-col justify-center space-y-3 '>
                 <div className='flex gap-1 items-center  bg-[#E1E7FF] p-1 rounded-2xl w-72 '>
                     <FaCircle className='text-[10px] text-green-600 animate-pulse' />
                     <p className='text-[#4F39F6]'> New: AI-Powered Tools Available</p>
@@ -23,7 +23,7 @@ const Banner = () => {
             </div>
 
             <div>
-                <img src={bannerImage} alt="" />
+                <img className='mt-10' src={bannerImage} alt="" />
             </div>
         </div>
     );

@@ -21,7 +21,7 @@ const Navber = ({carts}) => {
 
                         </ul>
                     </div>
-                    <a className="text-2xl font-extrabold text-[#4F39F6]">DigiTools</a>
+                    <a className=" lg:text-2xl text-xl font-extrabold text-[#4F39F6]">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal font-semibold px-1">
@@ -44,7 +44,7 @@ const Navber = ({carts}) => {
 
                     </div>
                     <a className="btn btn-ghost">Login</a>
-                    <button className='btn text-white bg-linear-to-l from-[#9514FA] to-[#4f39f6] mr-3 rounded-full py-5'>Get Started</button>
+                    <button className='btn text-white bg-linear-to-l from-[#9514FA] to-[#4f39f6] mr-3 rounded-full lg:py-5'>Get Started</button>
                 </div>
             </div>
         </div>

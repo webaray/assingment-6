@@ -2,9 +2,9 @@ import React from 'react';
 
 const Calltoaction = () => {
     return (
-        <div className='bg-linear-to-l from-[#9514FA] to-[#4f39f6] py-32 text-white'>
+        <div className='bg-linear-to-l from-[#9514FA] to-[#4f39f6] py-32 text-white px-3'>
             <div className='container mx-auto'>
-                <h2 className='text-5xl font-extrabold text-center'>Ready to Transform Your Workflow?</h2>
+                <h2 className='lg:text-5xl text-3xl font-extrabold text-center'>Ready to Transform Your Workflow?</h2>
                 <p className='text-center mt-4 mb-10'>Join thousands of professionals who are already using Digitools to work smarter. <br /> Start your free trial today.</p>
                 <div className='text-center'>
                     <button className='btn bg-white text-purple-500 rounded-full py-6 mr-5'>Explore Product</button>
