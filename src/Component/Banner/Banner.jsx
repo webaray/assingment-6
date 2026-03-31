@@ -8,7 +8,7 @@ const Banner = () => {
         <div className=' lg:flex md:flex mx-auto gap-8 container justify-between my-24 px-3'>
             <div className='flex flex-col justify-center'>
                 <div className='flex gap-1 items-center  bg-[#E1E7FF] p-1 rounded-2xl w-72 '>
-                    <FaCircle />
+                    <FaCircle className='text-[10px] text-green-600 animate-pulse' />
                     <p className='text-[#4F39F6]'> New: AI-Powered Tools Available</p>
                 </div>
                 <div>
@@ -17,7 +17,7 @@ const Banner = () => {
                     </p>
                 </div>
                 <div className='mt-4'>
-                    <button className='btn text-white bg-linear-to-l from-[#9514FA] to-[#4f39f6] mr-3 rounded-full py-6'>Explore Products</button>
+                    <button className='btn text-white  mr-3 bg-linear-to-l from-[#9514FA] to-[#4f39f6] rounded-full py-6'>Explore Products</button>
                     <button className='btn rounded-full border border-[#4F39F6] py-6'> <IoPlayOutline/> Watch Demo</button>
                 </div>
             </div>

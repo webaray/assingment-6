@@ -4,7 +4,7 @@ import { BsCart } from 'react-icons/bs';
 const Navber = ({carts}) => {
     return (
         <div className=''>
-            <div className="navbar fixed top-0 lg:px-56 bg-base-100 shadow">
+            <div className="navbar fixed top-0 lg:px-56 bg-base-100 shadow z-20">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

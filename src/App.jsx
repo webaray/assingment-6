@@ -8,6 +8,8 @@ import Navber from './Component/Navber/Navber'
 import Products from './Component/Products/Products'
 import Steps from './Component/Steps/Steps'
 import Pakages from './Component/Pakages/Pakages'
+import Calltoaction from './Component/CallToActioon/Calltoaction'
+import Footer from './Component/Footer/Footer'
 
 const getProduct = async () => {
   const res = await fetch("/data.json")
@@ -31,6 +33,8 @@ function App() {
        {activeTab === "cart" && <Carts activeTab={activeTab} setActiveTab={setActiveTab} carts={carts} setCarts={setCarts}  />}
        <Steps/>
        <Pakages/>
+       <Calltoaction/>
+       <Footer/>
     </>
   )
 }
