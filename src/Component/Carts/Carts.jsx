@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsCart2 } from 'react-icons/bs';
 import { toast } from 'react-toastify';
 
 const Carts = ({ setActiveTab, carts, setCarts }) => {
@@ -48,7 +49,10 @@ const Carts = ({ setActiveTab, carts, setCarts }) => {
                     <h2 className='text-2xl font-bold mb-4'>Your Cart</h2>
 
                     {
-                        carts.length === 0 ? <div className='h-32 bg-amber-50 flex flex-col justify-center text-center rounded-2xl'><p className='text-xl text-zinc-400'>Cart is empty</p></div> : 
+                        carts.length === 0 ? <div className=' py-20 bg-amber-50 grid  justify-center items-center rounded-2xl'>
+                            <BsCart2 className='text-5xl ' />
+                            <p className='text-xl  text-zinc-400'>Cart is empty</p>
+                            </div> : 
 
                         <>
                         
